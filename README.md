@@ -16,15 +16,15 @@ The dataset consists of 2357 images of malignant and benign oncological diseases
 
 The data set contains the following diseases:
 
-![datasetdf](https://github.com/tgoel5884/Melanoma_Detection_Assignment/blob/f143d178495ec6490ce2ee18c4cbbfb2e1388cea/Readme_images/Datasetdf.png)
+![datasetdf](https://github.com/tgoel5884/Melanoma_Detection_Assignment/blob/82ea1123f798808dc03db0c887341d7c76a4c6b0/Readme_images/Datasetdf.png)
 
-![datasetplot](https://github.com/tgoel5884/Melanoma_Detection_Assignment/blob/f143d178495ec6490ce2ee18c4cbbfb2e1388cea/Readme_images/DatasetPlot.png)
+![datasetplot](https://github.com/tgoel5884/Melanoma_Detection_Assignment/blob/82ea1123f798808dc03db0c887341d7c76a4c6b0/Readme_images/DatasetPlot.png)
 
 To overcome the issue of class imbalance, used a python package  Augmentor (https://augmentor.readthedocs.io/en/master/) to add more samples across all classes so that none of the classes have very few samples.
 
 ### Sample image from Dataset
 
-![sample image](https://github.com/tgoel5884/Melanoma_Detection_Assignment/blob/b43daf05e84626d3796321e79caeb2f6f8179346/Readme_images/Samleimagefromdataset.png)
+![sample image](https://github.com/tgoel5884/Melanoma_Detection_Assignment/blob/82ea1123f798808dc03db0c887341d7c76a4c6b0/Readme_images/Samleimagefromdataset.png)
 
 ## CNN Architecture Design
 To classify skin cancer using skin lesions images. To achieve higher accuracy and results on the classification task, I have built custom CNN model.
@@ -39,10 +39,10 @@ To classify skin cancer using skin lesions images. To achieve higher accuracy an
 - Activation Function(Softmax) - The softmax function is used as the activation function in the output layer of neural network models that predict a multinomial probability distribution. The main advantage of using Softmax is the output probabilities range. The range will 0 to 1, and the sum of all the probabilities will be equal to one.
 
 ### Model Architecture
-![Model Arch](https://github.com/tgoel5884/Melanoma_Detection_Assignment/blob/d8b2ca8cc296af14ab9aa7a6def31a7efc86271b/Readme_images/ModelLayer.png)
+![Model Arch](https://github.com/tgoel5884/Melanoma_Detection_Assignment/blob/82ea1123f798808dc03db0c887341d7c76a4c6b0/Readme_images/ModelArch.png)
 
 ### Model Evaluation
-![ModelEvaluation](https://github.com/tgoel5884/Melanoma_Detection_Assignment/blob/7e7a17d3c891bf12be42385979168135775654c4/Readme_images/ModelEvaluation.png)
+![ModelEvaluation](https://github.com/tgoel5884/Melanoma_Detection_Assignment/blob/82ea1123f798808dc03db0c887341d7c76a4c6b0/Readme_images/ModelEvaluation.png)
 
 ## References
 Melanoma Skin Cancer from https://www.cancer.org/cancer/melanoma-skin-cancer/about/what-is-melanoma.html
